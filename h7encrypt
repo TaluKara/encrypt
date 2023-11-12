@@ -11,9 +11,9 @@ ACTION=$2
 
 
 if [ "$ACTION" == "e" ]; then
-    ./encrypt "$FILENAME"
+    /usr/local/bin/h7encrypt-files/encrypt "$FILENAME"
 elif [ "$ACTION" == "d" ]; then
-    ./decrypt "$FILENAME"
+    /usr/local/bin/h7encrypt-files/decrypt "$FILENAME"
 else
     echo "Invalid action: $ACTION. Use 'e' for encrypt or 'd' for decrypt."
     exit 1
