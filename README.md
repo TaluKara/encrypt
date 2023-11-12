@@ -22,10 +22,10 @@ cd h7encrypt
 g++ encrypt.cpp -o encrypt && g++ decrypt.cpp -o decrypt && chmod +x encrypt && chmod +x decrypt
 ```
 
-4- Create a symbolic link to make the `cpptemplater` command available globally (optional):
+4- Create a symbolic link to make the `h7encrypt` command available globally:
 
 ```bash
-sudo cp h7encrypt /usr/local/bin/
+sudo cp h7encrypt /usr/local/bin/ && sudo mkdir /usr/local/bin/h7encrypt-files && sudo cp decrypt encrypt /usr/local/bin/h7encrypt-files
 ```
 
 Now, you can use the `h7encrypt` command globally in your terminal.
