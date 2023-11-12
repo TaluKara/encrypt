@@ -35,7 +35,7 @@ Now, you can use the `h7encrypt` command globally in your terminal.
 To use the `h7encrypt` command, follow these steps:
 
 1. Open a terminal.
-2. Type `h7encrypt` followed by the name of the txt file you want to encrypt or decrypt. For example:
+2. Type `h7encrypt` followed by the name of the txt file you want to encrypt or decrypt. ```bash h7encrypt txtfilename [e/d]```.For example:
 
    We have a file named test.txt, and we want to encrypt this file.
 
