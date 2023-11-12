@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then
+    echo "Usage: h7encrypt filename [e/d]"
+    exit 1
+fi
+
+
+FILENAME=$1
+ACTION=$2
+
+
+if [ "$ACTION" == "e" ]; then
+    ./encrypt "$FILENAME"
+elif [ "$ACTION" == "d" ]; then
+    ./decrypt "$FILENAME"
+else
+    echo "Invalid action: $ACTION. Use 'e' for encrypt or 'd' for decrypt."
+    exit 1
+fi
