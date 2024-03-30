@@ -7,7 +7,7 @@ The `h7encrypt` command is a custom script that encrypts and decrypts txt files.
 1- Clone or download the repository to your local machine.
 
 ```bash
-git clone https://github.com/h7yt0p/h7encrypt.git
+git clone https://github.com/talukara/h7encrypt.git
 ```
 
 2- Navigate to the directory containing the `h7encrypt` script using the terminal:
