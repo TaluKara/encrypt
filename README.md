@@ -1,4 +1,4 @@
-# h7encrypt
+# encrypt
 
 The `encrypt` command is a custom script that encrypts and decrypts txt files. This guide explains how to set up and use the `encrypt` command.
 
