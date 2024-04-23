@@ -1,16 +1,16 @@
 # h7encrypt
 
-The `h7encrypt` command is a custom script that encrypts and decrypts txt files. This guide explains how to set up and use the `h7encrypt` command.
+The `encrypt` command is a custom script that encrypts and decrypts txt files. This guide explains how to set up and use the `encrypt` command.
 
 ## Installation
 
 1- Clone or download the repository to your local machine.
 
 ```bash
-git clone https://github.com/talukara/h7encrypt.git
+git clone https://github.com/talukara/encrypt.git
 ```
 
-2- Navigate to the directory containing the `h7encrypt` script using the terminal:
+2- Navigate to the directory containing the `encrypt` script using the terminal:
 
 ```bash
 cd h7encrypt
@@ -22,25 +22,25 @@ cd h7encrypt
 g++ encrypt.cpp -o encrypt && g++ decrypt.cpp -o decrypt && chmod +x encrypt && chmod +x decrypt
 ```
 
-4- Create a symbolic link to make the `h7encrypt` command available globally:
+4- Create a symbolic link to make the `encrypt` command available globally:
 
 ```bash
-sudo cp h7encrypt /usr/local/bin/ && sudo mkdir /usr/local/bin/h7encrypt-files && sudo cp decrypt encrypt /usr/local/bin/h7encrypt-files
+sudo cp h7encrypt /usr/local/bin/ && sudo mkdir /usr/local/bin/encrypt-files && sudo cp decrypt encrypt /usr/local/bin/encrypt-files
 ```
 
-Now, you can use the `h7encrypt` command globally in your terminal.
+Now, you can use the `encrypt` command globally in your terminal.
 
 ## Usage
 
-To use the `h7encrypt` command, follow these steps:
+To use the `encrypt` command, follow these steps:
 
 1. Open a terminal.
-2. Type `h7encrypt` followed by the name of the txt file you want to encrypt or decrypt. ```h7encrypt txtfilename [e/d]```.For example:
+2. Type `encrypt` followed by the name of the txt file you want to encrypt or decrypt. ```encrypt txtfilename [e/d]```.For example:
 
    We have a file named test.txt, and we want to encrypt this file.
 
    ```bash
-   h7encrypt test e
+   encrypt test e
    ```
 3. The script will remove the test.txt file and then creates "test.en"
 
